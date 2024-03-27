@@ -1,0 +1,24 @@
+{
+  "name": "reacjs-mod",
+  "version": "1.0.2",
+  "type": "module",
+  "description": "Paquet Réac pour travailler avec le MOD",
+  "homepage": "https://reac.dev/",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    },
+    "./client": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "author": "Équipe Reac JS",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react-dom": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

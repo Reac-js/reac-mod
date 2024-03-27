@@ -1,6 +1,5 @@
 # `reacjs-mod`
 
-This package serves as the entry point to the DOM and server renderers for React. It is intended to be paired with the generic React package, which is shipped as `react` to npm.
 Ce paquet sert de point d'entrée au MOD (Modèle Objet du Document) pour Réac. Il est attendu qu'il soit appairé au paquet générique Réac, qui est livré sous le nom `reacjs` sur npm.
 
 ## Installation
